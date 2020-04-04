@@ -87,7 +87,7 @@ try:
             options.add_argument('--no-sandbox')
             options.add_argument('--disable-dev-shm-usage')
 
-            temp = webdriver.Chrome("chromedriver.exe", options=options)
+            temp = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER PATH"), chrome_options=options)
               
         write_log(1, "Browser created")        
         return temp
