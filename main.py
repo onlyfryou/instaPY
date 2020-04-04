@@ -43,7 +43,7 @@ try:
     debug = False
     error_trace = False
     
-    base_url = "https://www.instagram.com/p/B-NfqY7nIUL/"
+    base_url = "https://www.instagram.com/p"
     sub_url = ""
 
     
