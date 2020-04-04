@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae035285-c552-4808-8d52-c9bbfb4e471a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -29,6 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -43,7 +43,7 @@
       <workItem from="1585580101722" duration="2341000" />
       <workItem from="1585659210916" duration="5000" />
       <workItem from="1585669188822" duration="1859000" />
-      <workItem from="1585978831364" duration="259000" />
+      <workItem from="1585978831364" duration="1337000" />
     </task>
     <servers />
   </component>
@@ -51,6 +51,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1585981420663">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.190.1440.860/295.-768.1360.728@0.0.1920.1040" timestamp="1585981420663" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585669192848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

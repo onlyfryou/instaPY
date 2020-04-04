@@ -43,7 +43,7 @@ try:
     debug = False
     error_trace = False
     
-    base_url = "https://www.instagram.com/p"
+    base_url = "https://www.instagram.com/p/"
     sub_url = ""
 
     
@@ -87,7 +87,7 @@ try:
             options.add_argument('--no-sandbox')
             options.add_argument('--disable-dev-shm-usage')
 
-            temp = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER PATH"), chrome_options=options)
+            temp = webdriver.Chrome("chromedriver.exe", options=options)
               
         write_log(1, "Browser created")        
         return temp

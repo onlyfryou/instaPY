@@ -1,0 +1,22 @@
+2020-04-04 09:17:35,056 - INFO - Started
+2020-04-04 09:17:35,057 - INFO - Args invalid['main.py']
+2020-04-04 09:17:48,183 - INFO - Started
+2020-04-04 09:17:48,183 - INFO - Args OK
+2020-04-04 09:17:48,183 - INFO - Error handled
+2020-04-04 09:17:48,183 - INFO - General error! name 'os' is not defined (line: 158)
+2020-04-04 09:17:55,899 - INFO - Started
+2020-04-04 09:17:55,899 - INFO - Args OK
+2020-04-04 09:17:55,899 - INFO - Error handled
+2020-04-04 09:17:55,899 - INFO - General error! name 'os' is not defined (line: 158)
+2020-04-04 09:21:43,604 - INFO - Started
+2020-04-04 09:21:43,605 - INFO - Args OK
+2020-04-04 09:21:48,911 - INFO - Browser created
+2020-04-04 09:21:48,912 - INFO - Vars filled
+2020-04-04 09:21:51,913 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-04-04 09:22:00,807 - INFO - Browser closed
+2020-04-04 09:24:25,334 - INFO - Started
+2020-04-04 09:24:25,334 - INFO - Args OK
+2020-04-04 09:24:30,374 - INFO - Browser created
+2020-04-04 09:24:30,374 - INFO - Vars filled
+2020-04-04 09:24:35,197 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL
+2020-04-04 09:24:44,232 - INFO - Browser closed
