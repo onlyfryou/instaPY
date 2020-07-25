@@ -1,12 +1,3 @@
-"""
-#browser.get("https://www.instagram.com/p/B-NfqY7nIUL/");  # cok
-#browser.get("https://www.instagram.com/p/B-FX2zxJuuh/");  # cok
-browser.get("https://www.instagram.com/p/B-NO0LJnKmG/")  # az
-#browser.get("https://www.instagram.com/p/B-B80jcHE61/")  # az
-print(json.dumps(users))
-print("")
-print(comments)
-browser.quit()"""
 import sys
 import logging
 import traceback
@@ -18,6 +9,7 @@ from selenium.webdriver.support import expected_conditions as ec
 
 import json
 import time
+import re
     
 
 
@@ -43,7 +35,7 @@ try:
     debug = False
     error_trace = False
     
-    base_url = "https://www.instagram.com/p/"
+    base_url = ""
     sub_url = ""
 
     
@@ -80,14 +72,15 @@ try:
         global debug
         
         if debug:
-            temp = webdriver.Chrome("chromedriver.exe")   
+            temp = webdriver.Chrome("./chromedriver")   
         else:
             options = webdriver.ChromeOptions()
             options.add_argument('--headless')
             options.add_argument('--no-sandbox')
             options.add_argument('--disable-dev-shm-usage')
-
-            temp = webdriver.Chrome("chromedriver.exe", options=options)
+            options.add_argument('--disable-gpu') 
+            options.add_argument('--user-data-dir=/var/www/html/insta/data') 
+            temp = webdriver.Chrome("./chromedriver", options=options)
               
         write_log(1, "Browser created")        
         return temp
@@ -100,31 +93,49 @@ try:
     def go_to_media_file():
         global base_url, sub_url
         go_to_page(base_url+sub_url)
+    
+    def account_login():
+        global browser
+        username="fakek2"
+        password="hayret1sey"
+        browser.get("https://www.instagram.com/accounts/login")
+        time.sleep(5)
+        user_uls = browser.find_element_by_xpath('.//input[@name="username"]')
+        time.sleep(5)
+        user_uls.send_keys(username)
+        password = browser.find_element_by_xpath('.//input[@name="password"]').send_keys(password)
+        login_button=browser.find_element_by_xpath('//*[@id="react-root"]/section/main/div/article/div/div[1]/div/form/div[4]/button/div').click()
+        time.sleep(5)    
+    def new_tab_chrome():
+        browser.execute_script("window.open('https://www.instagram.com');")
         
     def fill_all_comments_on_page():
         global browser
         
         try:
             while True:
-                WebDriverWait(browser, 5).until(ec.element_to_be_clickable((By.CLASS_NAME, "dCJp8")))
+                WebDriverWait(browser, 1).until(ec.element_to_be_clickable((By.CLASS_NAME, "dCJp8")))
                 more = browser.find_element_by_class_name("dCJp8")
                 more.click()
         except Exception as e:
             temp = True
-        
+    def strip_emoji(text):
+        a = re.compile('[\U00010000-\U0010ffff]', flags=re.UNICODE)
+        return  a.sub(r'', text)
     def get_data_from_page():
         data = []
         user_uls = browser.find_elements_by_xpath('//ul[contains(@class,"Mr508")]')
         for user_ul in user_uls:
             username = user_ul.find_element_by_xpath('.//h3//a').text
             comment = user_ul.find_element_by_xpath('.//div[@class="C4VMK"]//span').text
-             
-            temp = {"username": username, "comment": comment}
+            comment=strip_emoji(comment)
+            photo = user_ul.find_element_by_xpath('.//div[@class="P9YgZ"]//div//div//a//img').get_attribute("src")
+            temp = {"username": username, "comment": comment, "photo": photo}
             data.append(temp)
             
         return data
-        
     def get_data():
+        #account_login()
         go_to_media_file()
         fill_all_comments_on_page()
         data = get_data_from_page()
@@ -134,9 +145,9 @@ try:
         return data
         
     def print_data(data):
-        temp = {"status": "OK", "data": data}
-        print(json.dumps(temp))
-    
+        for i in data:
+            print(json.dumps(i))
+
     def close_browser():
         global browser    
         browser.quit()
@@ -150,7 +161,6 @@ try:
         data = get_data()
         
         print_data(data)
-    
 
     #Main
     if __name__ == "__main__":

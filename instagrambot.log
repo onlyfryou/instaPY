@@ -1,22 +1,281 @@
-2020-04-04 09:17:35,056 - INFO - Started
-2020-04-04 09:17:35,057 - INFO - Args invalid['main.py']
-2020-04-04 09:17:48,183 - INFO - Started
-2020-04-04 09:17:48,183 - INFO - Args OK
-2020-04-04 09:17:48,183 - INFO - Error handled
-2020-04-04 09:17:48,183 - INFO - General error! name 'os' is not defined (line: 158)
-2020-04-04 09:17:55,899 - INFO - Started
-2020-04-04 09:17:55,899 - INFO - Args OK
-2020-04-04 09:17:55,899 - INFO - Error handled
-2020-04-04 09:17:55,899 - INFO - General error! name 'os' is not defined (line: 158)
-2020-04-04 09:21:43,604 - INFO - Started
-2020-04-04 09:21:43,605 - INFO - Args OK
-2020-04-04 09:21:48,911 - INFO - Browser created
-2020-04-04 09:21:48,912 - INFO - Vars filled
-2020-04-04 09:21:51,913 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
-2020-04-04 09:22:00,807 - INFO - Browser closed
-2020-04-04 09:24:25,334 - INFO - Started
-2020-04-04 09:24:25,334 - INFO - Args OK
-2020-04-04 09:24:30,374 - INFO - Browser created
-2020-04-04 09:24:30,374 - INFO - Vars filled
-2020-04-04 09:24:35,197 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL
-2020-04-04 09:24:44,232 - INFO - Browser closed
+2020-06-13 16:19:12,156 - INFO - Started
+2020-06-13 16:19:12,156 - INFO - Args OK
+2020-06-13 16:19:13,723 - INFO - Browser created
+2020-06-13 16:19:13,723 - INFO - Vars filled
+2020-06-13 16:19:34,280 - INFO - Go url: https://www.instagram.com/p/CAGMGSUHSJ5/
+2020-06-13 16:19:36,102 - INFO - Browser closed
+2020-06-13 16:20:14,103 - INFO - Started
+2020-06-13 16:20:14,103 - INFO - Args OK
+2020-06-13 16:20:15,559 - INFO - Browser created
+2020-06-13 16:20:15,559 - INFO - Vars filled
+2020-06-13 16:20:37,454 - INFO - Go url: https://www.instagram.com/p/CAGMGSUHSJ5/
+2020-06-13 16:20:39,219 - INFO - Browser closed
+2020-06-13 16:27:18,134 - INFO - Started
+2020-06-13 16:27:18,134 - INFO - Args OK
+2020-06-13 16:27:19,728 - INFO - Browser created
+2020-06-13 16:27:19,728 - INFO - Vars filled
+2020-06-13 16:27:52,386 - INFO - Go url: https://www.instagram.com/p/CAGMGSUHSJ5/
+2020-06-13 16:27:54,445 - INFO - Browser closed
+2020-06-13 16:28:14,379 - INFO - Started
+2020-06-13 16:28:14,379 - INFO - Args OK
+2020-06-13 16:28:15,828 - INFO - Browser created
+2020-06-13 16:28:15,828 - INFO - Vars filled
+2020-06-13 16:28:36,283 - INFO - Go url: https://www.instagram.com/p/CAGMGSUHSJ5/
+2020-06-13 16:28:38,259 - INFO - Browser closed
+2020-06-13 16:31:31,368 - INFO - Started
+2020-06-13 16:31:31,373 - INFO - Args OK
+2020-06-13 16:31:32,890 - INFO - Browser created
+2020-06-13 16:31:32,890 - INFO - Vars filled
+2020-06-13 16:31:53,622 - INFO - Go url: https://www.instagram.com/p/CAGMGSUHSJ5/
+2020-06-13 16:31:55,418 - INFO - Browser closed
+2020-06-13 16:32:43,124 - INFO - Started
+2020-06-13 16:32:43,128 - INFO - Args OK
+2020-06-13 16:32:44,600 - INFO - Browser created
+2020-06-13 16:32:44,600 - INFO - Vars filled
+2020-06-13 16:33:04,165 - INFO - Go url: https://www.instagram.com/p/CAGMGSUHSJ5/
+2020-06-13 16:33:05,978 - INFO - Browser closed
+2020-06-13 16:35:18,754 - INFO - Started
+2020-06-13 16:35:18,755 - INFO - Args OK
+2020-06-13 16:35:20,269 - INFO - Browser created
+2020-06-13 16:35:20,269 - INFO - Vars filled
+2020-06-13 16:35:40,320 - INFO - Go url: https://www.instagram.com/p/CAGMGSUHSJ5/
+2020-06-13 16:35:42,014 - INFO - Browser closed
+2020-06-13 16:36:01,609 - INFO - Started
+2020-06-13 16:36:01,609 - INFO - Args OK
+2020-06-13 16:36:03,059 - INFO - Browser created
+2020-06-13 16:36:03,059 - INFO - Vars filled
+2020-06-13 16:36:22,604 - INFO - Go url: https://www.instagram.com/p/CAGMGSUHSJ5/
+2020-06-13 16:36:24,594 - INFO - Browser closed
+2020-06-13 16:38:13,589 - INFO - Started
+2020-06-13 16:38:13,589 - INFO - Args OK
+2020-06-13 16:38:15,038 - INFO - Browser created
+2020-06-13 16:38:15,038 - INFO - Vars filled
+2020-06-13 16:38:35,589 - INFO - Go url: https://www.instagram.com/p/CAGMGSUHSJ5/
+2020-06-13 16:38:37,318 - INFO - Browser closed
+2020-06-13 16:40:22,390 - INFO - Started
+2020-06-13 16:40:22,390 - INFO - Args OK
+2020-06-13 16:40:23,947 - INFO - Browser created
+2020-06-13 16:40:23,948 - INFO - Vars filled
+2020-06-13 16:40:45,362 - INFO - Go url: https://www.instagram.com/p/B78Q568Iibo/
+2020-06-13 16:40:52,144 - INFO - Browser closed
+2020-06-13 16:40:58,692 - INFO - Started
+2020-06-13 16:40:58,693 - INFO - Args OK
+2020-06-13 16:41:00,140 - INFO - Browser created
+2020-06-13 16:41:00,140 - INFO - Vars filled
+2020-06-13 16:41:07,625 - INFO - Started
+2020-06-13 16:41:07,627 - INFO - Args OK
+2020-06-13 16:41:09,077 - INFO - Browser created
+2020-06-13 16:41:09,077 - INFO - Vars filled
+2020-06-13 16:41:21,343 - INFO - Go url: https://www.instagram.com/p/B78Q568Iibo/
+2020-06-13 16:41:29,679 - INFO - Browser closed
+2020-06-13 16:41:33,578 - INFO - Go url: https://www.instagram.com/p/B78Q568Iibo/
+2020-06-13 16:41:39,819 - INFO - Browser closed
+2020-06-13 16:44:47,996 - INFO - Started
+2020-06-13 16:44:47,996 - INFO - Args OK
+2020-06-13 16:44:49,454 - INFO - Browser created
+2020-06-13 16:44:49,454 - INFO - Vars filled
+2020-06-13 16:44:57,730 - INFO - Started
+2020-06-13 16:44:57,730 - INFO - Args OK
+2020-06-13 16:44:59,347 - INFO - Browser created
+2020-06-13 16:44:59,347 - INFO - Vars filled
+2020-06-13 16:45:16,501 - INFO - Go url: https://www.instagram.com/p/B78Q568Iibo/
+2020-06-13 16:45:24,222 - INFO - Go url: https://www.instagram.com/p/CBWfOslp0No/
+2020-06-13 16:45:25,718 - INFO - Browser closed
+2020-06-13 16:45:40,730 - INFO - Browser closed
+2020-06-13 16:48:35,484 - INFO - Started
+2020-06-13 16:48:35,484 - INFO - Args OK
+2020-06-13 16:48:36,936 - INFO - Browser created
+2020-06-13 16:48:36,936 - INFO - Vars filled
+2020-06-13 16:48:58,383 - INFO - Go url: https://www.instagram.com/p/CBWfOslp0No/
+2020-06-13 16:49:18,114 - INFO - Browser closed
+2020-06-23 00:14:40,024 - INFO - Started
+2020-06-23 00:14:40,025 - INFO - Args OK
+2020-06-23 00:14:42,073 - INFO - Browser created
+2020-06-23 00:14:42,074 - INFO - Vars filled
+2020-06-23 00:15:00,842 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:15:04,933 - INFO - Browser closed
+2020-06-23 00:20:07,105 - INFO - Started
+2020-06-23 00:20:07,106 - INFO - Args OK
+2020-06-23 00:20:08,125 - INFO - Error handled
+2020-06-23 00:20:08,126 - INFO - General error! Message: unknown error: cannot create default profile directory
+ (line: 168)
+2020-06-23 00:20:17,438 - INFO - Started
+2020-06-23 00:20:17,439 - INFO - Args OK
+2020-06-23 00:20:18,676 - INFO - Browser created
+2020-06-23 00:20:18,676 - INFO - Vars filled
+2020-06-23 00:20:36,763 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:20:40,753 - INFO - Browser closed
+2020-06-23 00:21:25,126 - INFO - Started
+2020-06-23 00:21:25,127 - INFO - Args OK
+2020-06-23 00:21:26,405 - INFO - Browser created
+2020-06-23 00:21:26,405 - INFO - Vars filled
+2020-06-23 00:21:45,447 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:21:49,386 - INFO - Browser closed
+2020-06-23 00:22:20,915 - INFO - Started
+2020-06-23 00:22:20,916 - INFO - Args OK
+2020-06-23 00:22:22,172 - INFO - Browser created
+2020-06-23 00:22:22,172 - INFO - Vars filled
+2020-06-23 00:22:24,601 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:22:28,355 - INFO - Browser closed
+2020-06-23 00:22:52,526 - INFO - Started
+2020-06-23 00:22:52,526 - INFO - Args OK
+2020-06-23 00:22:53,759 - INFO - Browser created
+2020-06-23 00:22:53,760 - INFO - Vars filled
+2020-06-23 00:22:55,349 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:22:59,051 - INFO - Browser closed
+2020-06-23 00:23:09,136 - INFO - Started
+2020-06-23 00:23:09,137 - INFO - Args OK
+2020-06-23 00:23:10,368 - INFO - Browser created
+2020-06-23 00:23:10,369 - INFO - Vars filled
+2020-06-23 00:23:11,915 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:23:15,586 - INFO - Browser closed
+2020-06-23 00:24:30,328 - INFO - Started
+2020-06-23 00:24:30,329 - INFO - Args OK
+2020-06-23 00:24:31,627 - INFO - Browser created
+2020-06-23 00:24:31,629 - INFO - Vars filled
+2020-06-23 00:24:33,044 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:24:37,056 - INFO - Browser closed
+2020-06-23 00:25:03,831 - INFO - Started
+2020-06-23 00:25:03,832 - INFO - Args OK
+2020-06-23 00:25:05,083 - INFO - Browser created
+2020-06-23 00:25:05,083 - INFO - Vars filled
+2020-06-23 00:25:07,907 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:25:11,727 - INFO - Browser closed
+2020-06-23 00:25:33,665 - INFO - Started
+2020-06-23 00:25:33,666 - INFO - Args OK
+2020-06-23 00:25:34,908 - INFO - Browser created
+2020-06-23 00:25:34,909 - INFO - Vars filled
+2020-06-23 00:25:37,525 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:25:41,201 - INFO - Browser closed
+2020-06-23 00:27:06,947 - INFO - Started
+2020-06-23 00:27:06,948 - INFO - Args OK
+2020-06-23 00:27:08,184 - INFO - Browser created
+2020-06-23 00:27:08,185 - INFO - Vars filled
+2020-06-23 00:27:09,670 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:27:13,543 - INFO - Browser closed
+2020-06-23 00:27:25,633 - INFO - Started
+2020-06-23 00:27:25,633 - INFO - Args OK
+2020-06-23 00:27:26,905 - INFO - Browser created
+2020-06-23 00:27:26,905 - INFO - Vars filled
+2020-06-23 00:27:29,459 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:27:33,135 - INFO - Browser closed
+2020-06-23 00:27:43,737 - INFO - Started
+2020-06-23 00:27:43,737 - INFO - Args OK
+2020-06-23 00:27:44,979 - INFO - Browser created
+2020-06-23 00:27:44,979 - INFO - Vars filled
+2020-06-23 00:27:46,943 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:27:50,620 - INFO - Browser closed
+2020-06-23 00:27:56,073 - INFO - Started
+2020-06-23 00:27:56,073 - INFO - Args OK
+2020-06-23 00:27:57,313 - INFO - Browser created
+2020-06-23 00:27:57,313 - INFO - Vars filled
+2020-06-23 00:27:58,989 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:28:02,728 - INFO - Browser closed
+2020-06-23 00:28:04,802 - INFO - Started
+2020-06-23 00:28:04,802 - INFO - Args OK
+2020-06-23 00:28:06,059 - INFO - Browser created
+2020-06-23 00:28:06,059 - INFO - Vars filled
+2020-06-23 00:28:08,608 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:28:12,284 - INFO - Browser closed
+2020-06-23 00:28:26,445 - INFO - Started
+2020-06-23 00:28:26,445 - INFO - Args OK
+2020-06-23 00:28:27,691 - INFO - Browser created
+2020-06-23 00:28:27,692 - INFO - Vars filled
+2020-06-23 00:28:29,378 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:28:33,197 - INFO - Browser closed
+2020-06-23 00:28:51,264 - INFO - Started
+2020-06-23 00:28:51,265 - INFO - Args OK
+2020-06-23 00:28:52,522 - INFO - Browser created
+2020-06-23 00:28:52,522 - INFO - Vars filled
+2020-06-23 00:28:54,482 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:28:58,178 - INFO - Browser closed
+2020-06-23 00:29:55,705 - INFO - Started
+2020-06-23 00:29:55,706 - INFO - Args OK
+2020-06-23 00:29:56,952 - INFO - Browser created
+2020-06-23 00:29:56,952 - INFO - Vars filled
+2020-06-23 00:29:58,907 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:30:02,573 - INFO - Browser closed
+2020-06-23 00:30:19,270 - INFO - Started
+2020-06-23 00:30:19,270 - INFO - Args OK
+2020-06-23 00:30:20,605 - INFO - Browser created
+2020-06-23 00:30:20,606 - INFO - Vars filled
+2020-06-23 00:30:22,021 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:30:25,995 - INFO - Browser closed
+2020-06-23 00:32:24,546 - INFO - Started
+2020-06-23 00:32:24,546 - INFO - Args OK
+2020-06-23 00:32:25,796 - INFO - Browser created
+2020-06-23 00:32:25,796 - INFO - Vars filled
+2020-06-23 00:32:27,499 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:32:31,742 - INFO - Browser closed
+2020-06-23 00:33:02,275 - INFO - Started
+2020-06-23 00:33:02,275 - INFO - Args OK
+2020-06-23 00:33:03,507 - INFO - Browser created
+2020-06-23 00:33:03,507 - INFO - Vars filled
+2020-06-23 00:33:05,542 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:33:09,285 - INFO - Browser closed
+2020-06-23 00:34:13,315 - INFO - Started
+2020-06-23 00:34:13,316 - INFO - Args OK
+2020-06-23 00:34:14,560 - INFO - Browser created
+2020-06-23 00:34:14,560 - INFO - Vars filled
+2020-06-23 00:34:16,648 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:34:20,542 - INFO - Browser closed
+2020-06-23 00:34:46,034 - INFO - Started
+2020-06-23 00:34:46,034 - INFO - Args OK
+2020-06-23 00:34:47,295 - INFO - Browser created
+2020-06-23 00:34:47,295 - INFO - Vars filled
+2020-06-23 00:34:48,695 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:34:52,670 - INFO - Browser closed
+2020-06-23 00:38:02,490 - INFO - Started
+2020-06-23 00:38:02,490 - INFO - Args OK
+2020-06-23 00:38:03,739 - INFO - Browser created
+2020-06-23 00:38:03,739 - INFO - Vars filled
+2020-06-23 00:38:06,162 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:38:10,039 - INFO - Browser closed
+2020-06-23 00:38:30,627 - INFO - Started
+2020-06-23 00:38:30,627 - INFO - Args OK
+2020-06-23 00:38:31,875 - INFO - Browser created
+2020-06-23 00:38:31,875 - INFO - Vars filled
+2020-06-23 00:38:33,283 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:38:37,087 - INFO - Browser closed
+2020-06-23 00:38:55,803 - INFO - Started
+2020-06-23 00:38:55,804 - INFO - Args OK
+2020-06-23 00:38:57,031 - INFO - Browser created
+2020-06-23 00:38:57,031 - INFO - Vars filled
+2020-06-23 00:38:58,668 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:39:02,418 - INFO - Browser closed
+2020-06-23 00:39:19,692 - INFO - Started
+2020-06-23 00:39:19,692 - INFO - Args OK
+2020-06-23 00:39:20,948 - INFO - Browser created
+2020-06-23 00:39:20,949 - INFO - Vars filled
+2020-06-23 00:39:22,297 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:39:26,118 - INFO - Browser closed
+2020-06-23 00:39:41,778 - INFO - Started
+2020-06-23 00:39:41,778 - INFO - Args OK
+2020-06-23 00:39:43,080 - INFO - Browser created
+2020-06-23 00:39:43,080 - INFO - Vars filled
+2020-06-23 00:39:44,523 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:39:48,371 - INFO - Browser closed
+2020-06-23 00:40:03,323 - INFO - Started
+2020-06-23 00:40:03,323 - INFO - Args OK
+2020-06-23 00:40:04,554 - INFO - Browser created
+2020-06-23 00:40:04,555 - INFO - Vars filled
+2020-06-23 00:40:06,209 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:40:09,907 - INFO - Browser closed
+2020-06-23 00:40:16,857 - INFO - Started
+2020-06-23 00:40:16,857 - INFO - Args OK
+2020-06-23 00:40:18,128 - INFO - Browser created
+2020-06-23 00:40:18,128 - INFO - Vars filled
+2020-06-23 00:40:19,853 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:40:23,576 - INFO - Browser closed
+2020-06-23 00:40:31,177 - INFO - Started
+2020-06-23 00:40:31,178 - INFO - Args OK
+2020-06-23 00:40:32,436 - INFO - Browser created
+2020-06-23 00:40:32,436 - INFO - Vars filled
+2020-06-23 00:40:34,054 - INFO - Go url: https://www.instagram.com/p/B-NfqY7nIUL/
+2020-06-23 00:40:37,860 - INFO - Browser closed
+2020-07-25 16:12:36,596 - INFO - Started
+2020-07-25 16:12:36,596 - INFO - Args OK
+2020-07-25 16:12:38,504 - INFO - Browser created
+2020-07-25 16:12:38,505 - INFO - Vars filled
+2020-07-25 16:12:41,144 - INFO - Go url: https://www.instagram.com/p/CCbOzMzFLOt/
+2020-07-25 16:12:58,391 - INFO - Browser closed
