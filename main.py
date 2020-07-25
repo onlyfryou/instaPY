@@ -96,8 +96,8 @@ try:
     
     def account_login():
         global browser
-        username="fakek2"
-        password="hayret1sey"
+        username=""
+        password=""
         browser.get("https://www.instagram.com/accounts/login")
         time.sleep(5)
         user_uls = browser.find_element_by_xpath('.//input[@name="username"]')
